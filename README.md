@@ -1,11 +1,11 @@
 # ETL_CryptoCoins
-Calling a public API and transforming it to kdb table to analyze
+Use the GET method from public API and transform it to KDB+/Q table to get analyzed.
 
-## Call Public API
-Utilize .j.k and to parse json format to kdb dictionary, .q.hg which is get command of the api endpoint
+## Make a call to Public API
+Utilize .j.k and to parse JSON format to KDB+ dictionary, .q.hg which is getting command of the API endpoint.
 
-## Parse dictionary and transforming it to table kdb
-Use of some element (iterators, flip command,etc) to select element in the dictionary and transform it into a dictionary
+## Parse dictionary and transform it to a KDB+ table
+Use of some functions (iterators, flip command, etc) to select element in the dictionary and transform it into a table.
 
-## Create a simple visualization of prices
-Get list of columns field to graphic using embedpy
+## Create a simple visualization for prices
+Get a list of columns fields to graphic using embedpy.
